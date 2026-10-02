@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar localstorage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pratikum LocalStorage</h1>
+      <br />
+      <form action="" method="post" onsubmit="inputData(event)">
+        <label for="nama">Masukan Nama:</label>
+        <br />
+        <input type="text" id="note" name="note" required />
+        <br /><br />
+        <label for="label">Keterangan:</label>
+        <br />
+        <select name="label" id="label" required placeholder="Pilih keterangan">
+          <option value="normal">Pilih keterangan</option>
+          <option value="prioritas">Prioritas</option>
+          <option value="melium">Melium</option>
+          <br />
+        </select>
+        <button type="submit">Kirim</button> <br />
+      </form>
+      <br />
+    
+      <button onclick="hapusSemuaData()" type="button">Hapus Semua Data</button>
+      <br /><br />
+      <ul id="data-tampil"></ul>
+    </div>
+    <br />
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    background: #40baf3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Tempat data LocalStorage muncul */
+#hasil {
+    margin-top: 30px;
+}
+
+/* Setiap data dibuat seperti kotak */
+.data-item {
+    background: #f8fafc;
+    border: 1px solid #dbe3ec;
+    border-left: 5px solid #2563eb;
+    padding: 15px;
+    margin-bottom: 15px; /* SPACE ANTAR DATA */
+    border-radius: 8px;
+}
+
+/* Jarak tulisan di dalam data */
+.data-item p {
+    margin: 7px 0;
+}
+
+.hapus {
+    background: #dc2626;
+}
+
+.hapus:hover {
+    background: #b91c1c;
+}
+
+#hapusData {
+    background: #dc2626;
+    margin-top: 20px;
+}
+.button {
+  margin-left: 5px;
+}
